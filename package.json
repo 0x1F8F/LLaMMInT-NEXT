@@ -2,6 +2,7 @@
   "name": "llammint",
   "version": "0.1.0",
   "private": true,
+  "module": "es2022",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "redis": "^4.6.10"
   },
   "devDependencies": {
     "typescript": "^5",
