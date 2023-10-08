@@ -30,3 +30,7 @@ body {
   font-size: 18px;
   line-height: 16px;
 }
+
+.mainButton {
+  @apply text-white bg-slate-900 text-sm rounded-md p-3 active:bg-slate-700 transition-colors ease-in delay-1000 hover:bg-slate-700
+}
