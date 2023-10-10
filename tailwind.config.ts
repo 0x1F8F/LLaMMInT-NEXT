@@ -19,7 +19,7 @@ const config: Config = {
 daisyui: {
       themes: [
         {
-          mytheme: {
+          mint: {
           
  "primary": "#2dd4bf",
           
